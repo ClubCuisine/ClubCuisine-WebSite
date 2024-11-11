@@ -1,0 +1,169 @@
+site_name: ClubCuisine
+extra_javascript:
+  - js/custom.js
+  - js/tags.js
+extra_css:
+  - css/styles.css
+theme:
+  name: material
+  font:
+    text: Roboto Slab
+  features:
+    - navigation.tabs
+    - navigation.path
+    - navigation.indexes
+    - material.extensions.preview
+    - navigation.top
+    - search.suggest
+    - search.share
+  palette:
+    - media: "(prefers-color-scheme)"
+      primary: 'black'
+      accent: 'light green'
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: 'black'
+      accent: 'light green'
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: 'black'
+      accent: 'light green'
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  language: fr
+  icon:
+    tag:
+      france: material/flag
+      italie: material/flag
+      espagne: material/flag
+      mexique: material/flag
+      etats_unis: material/flag
+      bresil: material/flag
+      argentine: material/flag
+      perou: material/flag
+      chine: material/flag
+      japon: material/flag
+      coree_du_sud: material/flag
+      thailande: material/flag
+      vietnam: material/flag
+      inde: material/flag
+      maroc: material/flag
+      turquie: material/flag
+      grece: material/flag
+      liban: material/flag
+      egypte: material/flag
+      afrique_du_sud: material/flag
+      russie: material/flag
+      allemagne: material/flag
+      suisse: material/flag
+      belgique: material/flag
+      portugal: material/flag
+      australie: material/flag
+      nouvelle_zelande: material/flag
+      entree: fontawesome/solid/utensils
+      plat: material/food
+      dessert: material/ice-cream
+      vegetarien: material/leaf
+      vegetalien: material/leaf
+      sans_gluten: material/bread-slice
+      sans_lactose: material/cow
+      sans_fruits_a_coque: material/leaf
+      facile: material/emoticon-happy
+      moyen: material/alert
+      difficile: material/emoticon-sad
+      rapide: material/clock
+      long: material/clock
+      four: material/toaster-oven
+      sans_four: material/toaster-oven
+      sans_porc: material/pig-variant
+      sans_alcool: material/glass-cocktail-off
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/clubcuisine_esiee?igsh=MW43ajl0cGFiNzZ5ag==
+  tags:
+    France: france
+    Italie: italie
+    Espagne: espagne
+    Mexique: mexique
+    États-Unis: etats_unis
+    Brésil: bresil
+    Argentine: argentine
+    Pérou: perou
+    Chine: chine
+    Japon: japon
+    Corée du Sud: coree_du_sud
+    Thaïlande: thailande
+    Vietnam: vietnam
+    Inde: inde
+    Maroc: maroc
+    Turquie: turquie
+    Grèce: grece
+    Liban: liban
+    Égypte: egypte
+    Afrique du Sud: afrique_du_sud
+    Russie: russie
+    Allemagne: allemagne
+    Suisse: suisse
+    Belgique: belgique
+    Portugal: portugal
+    Australie: australie
+    Nouvelle-Zélande: nouvelle_zelande
+
+    Entrée: entree
+    Plat: plat
+    Dessert: dessert
+
+    Végétarien: vegetarien
+    Végétalien: vegetalien
+    Sans gluten: sans_gluten
+    Sans lactose: sans_lactose
+    Sans fruits à coque: sans_fruits_a_coque
+
+    Facile: facile
+    Moyen: moyen
+    Difficile: difficile
+    Rapide: rapide
+    Long: long
+
+    Four: four
+    Sans four: sans_four
+
+    Sans porc: sans_porc
+    Sans alcool: sans_alcool
+plugins:
+  - search
+  - offline
+  - tags:
+      tags_file: Recettes/index.md
+  #- social
+  - awesome-pages
+  - gen-files:
+      scripts:
+        - generate_tags.py
+copyright: Copyright 2024 ESIEE Club Cuisine - CC BY-NC-ND 
+markdown_extensions:
+  - toc:
+        permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.arithmatex
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
