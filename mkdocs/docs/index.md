@@ -11,8 +11,10 @@ social:
     title: Club Cuisine
     description: Bienvenue au Club de Cuisine de l'ESIEE Paris
     background_color: "#4051b5"
-    background_image: null
+    background_image: "image/img_logo.jpg"
 ---
+
+<img src="image/logo.png" alt="Description de l'image" style="float: right; margin: 10px; width: 300px">
 
 # ESIEE Club Cuisne
 
@@ -37,4 +39,3 @@ Venez nous rejoindre pour apprendre, cuisiner, et profiter d’une ambiance conv
 ---
 
 **Contact** : club.cuisine@esiee.fr  
-**Lieu** : Salle 303, Bâtiment Principal, ESIEE Paris 

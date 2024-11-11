@@ -6,6 +6,8 @@ extra_css:
   - css/styles.css
 theme:
   name: material
+  logo: image/logo.png
+  favicon: image/logo.ico
   font:
     text: Roboto Slab
   features:
