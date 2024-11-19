@@ -144,10 +144,10 @@ extra:
 plugins:
   - search
   - offline
+  - awesome-pages
   - tags:
       tags_file: Recettes/index.md
   #- social
-  - awesome-pages
   - gen-files:
       scripts:
         - generate_tags.py
