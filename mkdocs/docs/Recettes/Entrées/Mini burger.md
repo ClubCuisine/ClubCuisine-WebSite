@@ -12,6 +12,8 @@ tags:
 ***
 *Source : Club Cuisne* <br>
 *Temps de d'assemblage : 30s/mini burger*
+
+*Event stand du --/--/--*
 ***
 
 ## Ingrédients
@@ -25,7 +27,7 @@ tags:
 
 <div class="people-adjustment">
   <button class="adjust-button minus">-</button>
-  <input type="number" id="num-people" value="1" min="1">
+  <input type="number" id="num-people" value="1" min="1" data-default-quantity="1">
   <button class="adjust-button plus">+</button>
 </div>
 
