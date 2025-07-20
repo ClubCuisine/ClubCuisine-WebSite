@@ -37,13 +37,15 @@
 }
 
 #num-people {
-    width: 50px;
+    min-width: 50px;
     text-align: center;
     font-size: 16px;
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin: 0 10px;
+    transition: width 0.2s; 
+    width: auto; 
 }
 
 /************************************************************/
@@ -123,4 +125,11 @@
 
 #tag-search:not(:placeholder-shown) + .clear-icon {
     display: block; /* Afficher lorsque le champ n'est pas vide */
+}
+
+/************************************************************/
+
+.download-button {
+  display: flex;
+  justify-content: flex-end;
 }
