@@ -1,4 +1,6 @@
 site_name: ClubCuisine
+exclude_docs: |
+  template.md
 extra_javascript:
   - js/custom.js
   - js/tags.js
