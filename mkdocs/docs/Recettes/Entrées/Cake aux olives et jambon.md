@@ -29,14 +29,14 @@ tags:
 </div>
 
 <div class="grid cards" markdown>
-- <span class="ingredient" data-base-quantity="1" data-unit="">1</span> cuillère à soupe d' huile
-- <span class="ingredient" data-base-quantity="1" data-unit="">1</span> sachet de levure chimique
-- <span class="ingredient" data-base-quantity="75" data-unit="">75</span> g de gruyère râpé
-- <span class="ingredient" data-base-quantity="150" data-unit="">150</span> g de farine
-- <span class="ingredient" data-base-quantity="100" data-unit="">100</span> g de dés de jambon
-- <span class="ingredient" data-base-quantity="150" data-unit="">150</span> g d'olives vertes dénoyautées
-- <span class="ingredient" data-base-quantity="4" data-unit="">4</span> oeufs
-- <span class="ingredient" data-base-quantity="10" data-unit="">10</span> cl de lait
+- <span class="ingredient" data-base-quantity="1" data-unit="cs"></span> Huile
+- <span class="ingredient" data-base-quantity="1" data-unit="sachet"></span> Levure chimique
+- <span class="ingredient" data-base-quantity="75" data-unit="g"></span> Gruyère râpé
+- <span class="ingredient" data-base-quantity="150" data-unit="g"></span>  Farine
+- <span class="ingredient" data-base-quantity="100" data-unit="g"></span>  Dés de jambon
+- <span class="ingredient" data-base-quantity="150" data-unit="g"></span> Olives vertes dénoyautées
+- <span class="ingredient" data-base-quantity="4" data-unit=""></span> Oeufs
+- <span class="ingredient" data-base-quantity="10" data-unit="cl"></span> Lait
 </div>
 
 ??? info "A noter"
@@ -72,14 +72,13 @@ Ajouter la levure et une pincer de poivre puis mélanger.
 
 ### Etape 7
 
-??? inline end tip "Conseils"
-    - *Il est meilleur froid*.
-
 Mettre le tout dans un plat à cake au préalable bien beurré et placer au four **45 min**.
 
 !!! info "Conseils"
     **Laisser refroidir avant de démouler**. Vous pouvez servir ce cake en apéritif ou en entrée avec une salade verte.
 
+??? inline end tip "Conseils"
+    - *Il est meilleur froid*.
 ## Concervation
 
 !!! warning ""

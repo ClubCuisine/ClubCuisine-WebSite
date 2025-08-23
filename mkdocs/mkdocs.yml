@@ -147,8 +147,7 @@ plugins:
   - search
   - offline
   - awesome-pages
-  - tags:
-      tags_file: Recettes/index.md
+  - tags
   #- social
   - gen-files:
       scripts:

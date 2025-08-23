@@ -26,11 +26,11 @@ Pour 500g de steak :
 </div>
 
 <div class="grid cards" markdown>
-- <span class="ingredient" data-base-quantity="500" data-unit="">500</span> g de steak haché
-- <span class="ingredient" data-base-quantity="2" data-unit="">2</span> cuillères à soupe de sauce soja salée
-- <span class="ingredient" data-base-quantity="0.5" data-unit="">1/2</span> cuillère à café de poivre
-- <span class="ingredient" data-base-quantity="0.5" data-unit="">1/2</span> cuillère à café d'ail en poudre
-- <span class="ingredient" data-base-quantity="0.5" data-unit="">1/2</span> cuillère à café de gingembre en poudre
+- <span class="ingredient" data-base-quantity="500" data-unit="g"></span>  de steak haché
+- <span class="ingredient" data-base-quantity="2" data-unit="cs"></span>  de sauce soja salée
+- <span class="ingredient" data-base-quantity="0.5" data-unit="cc"></span>  de poivre
+- <span class="ingredient" data-base-quantity="0.5" data-unit="cc"></span>  d'ail en poudre
+- <span class="ingredient" data-base-quantity="0.5" data-unit="cc"></span>  de gingembre en poudre
 </div>
 
 ## Instructions

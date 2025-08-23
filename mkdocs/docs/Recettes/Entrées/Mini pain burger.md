@@ -27,15 +27,15 @@ Multiplicateur de recette :
 </div>
 
 <div class="grid cards" markdown>
-- <span class="ingredient" data-base-quantity="500" data-unit="">500</span> g farine
-- <span class="ingredient" data-base-quantity="20" data-unit="">20</span> g sucre roux
-- <span class="ingredient" data-base-quantity="1" data-unit="">1</span> grosse pincée de sel
-- <span class="ingredient" data-base-quantity="1" data-unit="">1</span> sachet levure sèche de boulanger
-- <span class="ingredient" data-base-quantity="40" data-unit="">40</span> g de beurre
-- <span class="ingredient" data-base-quantity="20" data-unit="">20</span> cl lait
-- <span class="ingredient" data-base-quantity="2" data-unit="">2</span> oeufs
-- <span class="ingredient" data-base-quantity="1" data-unit="">1</span> jaune d’oeuf mélangé à un peu de lait
-- <span class="ingredient" data-base-quantity="1" data-unit="">1</span> cuillère environ à café de sésame noir
+- <span class="ingredient" data-base-quantity="500" data-unit="g"></span> farine
+- <span class="ingredient" data-base-quantity="20" data-unit="g"></span>  sucre roux
+- <span class="ingredient" data-base-quantity="1" data-unit=""></span> grosse pincée de sel
+- <span class="ingredient" data-base-quantity="1" data-unit="sachet"></span>  levure sèche de boulanger
+- <span class="ingredient" data-base-quantity="40" data-unit="g"></span>  de beurre
+- <span class="ingredient" data-base-quantity="20" data-unit="cl"></span>  lait
+- <span class="ingredient" data-base-quantity="2" data-unit=""></span> oeufs
+- <span class="ingredient" data-base-quantity="1" data-unit=""></span> jaune d’oeuf mélangé à un peu de lait
+- <span class="ingredient" data-base-quantity="1" data-unit="cc"></span> de sésame noir
 </div>
 
 ## Instructions

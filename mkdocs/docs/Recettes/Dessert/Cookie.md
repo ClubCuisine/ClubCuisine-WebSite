@@ -1,14 +1,14 @@
 ---
 # MÉTADONNÉES OBLIGATOIRES DE LA RECETTE
 
-tile: [titre]
+tile: Cookies
 # Ces tags déterminent comment la recette apparaîtra dans le système de filtrage liste des tags existant dans mkdocs.yml au niveau de extra=> tags=> la colone de gauche en bleu.
 tags:
   # ORIGINE GÉOGRAPHIQUE (choisir une seule origine)
-  - France          # ou Italie, Espagne, Mexique, États-Unis, Brésil, Argentine, etc.
+        # ou Italie, Espagne, Mexique, États-Unis, Brésil, Argentine, etc.
   
   # TYPE DE PLAT (choisir un seul type)
-  - Entrée          # ou Plat, Dessert
+  - Dessert          # ou Plat, Dessert
   
   # RESTRICTIONS ALIMENTAIRES 
   - Végétarien      # ou Végétalien, Sans gluten, Sans lactose, Sans fruits à coque
@@ -25,7 +25,7 @@ tags:
   - Four            # si un four est nécessaire / ou Sans four
 ---
 
-# [Nom de la Recette]
+# Cookie
 <!-- 
 CONSEILS POUR LE TITRE :
 - Utilisez un nom descriptif et appétissant
@@ -34,19 +34,20 @@ CONSEILS POUR LE TITRE :
 -->
 
 
-
-![titre de la photo](photo)
+![Cookies](https://olivesnthyme.com/wp-content/uploads/2022/02/Mini-Chocolate-Chip-Cookies-15.jpg)
 
 ***
-*Source : [site](lien)* <br>
-*Temps de préparation : xx minutes* <br>
-*Temps de cuisson : xx minutes*<br>
-*Temps de repos : xx minutes*<br>
+*Source :Celia GREMILLON* <br>
+*Temps de préparation : 15 minutes* <br>
+*Temps de cuisson : 10 minutes*<br>
+*Temps de repos : 1 heure*<br>
 
-*[event]*
+
+
 ***
 ## Ingrédients
-### Pour [X] personnes :
+
+### Pour 40 Cookies :
 <!-- 
 SYSTÈME D'AJUSTEMENT DES QUANTITÉS :
 - Remplacez [X] par le nombre de personnes de base
@@ -72,72 +73,29 @@ EXEMPLES DE FORMATAGE :
 - Fraction : <span class="ingredient" data-base-quantity="0.5" data-unit="cc"></span>
 -->
 
-- <span class="ingredient" data-base-quantity="[quantité]" data-unit="[unité]"></span> [nom de l'ingrédient]
-- <span class="ingredient" data-base-quantity="[quantité]" data-unit="[unité]"></span> [nom de l'ingrédient]
+- <span class="ingredient" data-base-quantity="100" data-unit="g"></span> Beurre
+- <span class="ingredient" data-base-quantity="100" data-unit="g"></span> Sucre
+- <span class="ingredient" data-base-quantity="85" data-unit="g"></span> lait concentré
+- <span class="ingredient" data-base-quantity="175" data-unit="g"></span> Farine
+- <span class="ingredient" data-base-quantity="1/2" data-unit="sachet"></span> Levure
+- <span class="ingredient" data-base-quantity="100" data-unit="g"></span> Pépite de chocolat
 <!-- Répéter pour chaque ingrédient -->
 </div>
 
 ## Instructions
 
 ### Etape 1
-<!-- 
-TECHNIQUES D'ENRICHISSEMENT :
-1. CONSEILS ET ASTUCES :
-Utilisez les blocs d'information pour ajouter des conseils
 
-??? : pour avoir un menu déroulant rétracté par default
-!!! : Pour avoir une section qui n'est pas rétractable
-
-Pour plus de précision dans les module et comment les utiliser lisez la documentation de MkDocs Material.
--->
-
-??? info inline end "A savoir"
-    [Conseil ou astuce importante pour cette étape]
-
-[Description détaillée de la première étape]
+Dans un saladier, mélanger beurre, sucre et lait concentré
 
 ### Etape 2
 
-??? tip inline end "Conseils"
-    - **Point important** : [explication]
-    - [Autre conseil utile]
-
-[Description de la deuxième étape]
+Ajouter farine, levure et pépites de chocolat.
 
 ### Etape 3
 
-??? inline end info "A noter"
-    [Information importante à retenir]
+Faire des boules de 3-4 cm et mettre a frigo pendant 1h.
 
-[Description de la troisième étape avec éventuellement une image]
+### Etape 4 
 
-<!-- 
-AJOUT D'IMAGES :
-Pour ajouter une image explicative dans un conseil :
-<p align="center">
-  <img src="[URL_de_l_image]" alt="Description" width="300">
-</p>
-
-Ajouter une image dans une étape :
-![Description de l'image](URL_de_l_image)
--->
-
-### Etape 4
-[Continuer avec toutes les étapes nécessaires...]
-
-<!-- 
-TYPES DE BLOCS D'INFORMATION DISPONIBLES :
-- info : informations générales (icône i)
-- tip : conseils et astuces (icône ampoule)
-- warning : avertissements (icône triangle)
-- note : notes importantes (icône crayon)
-
-POSITIONNEMENT :
-- inline end : à droite du texte
-- inline : dans le texte
-- (rien) : bloc complet
--->
-
-## Conservation
-<!-- Section optionnelle pour les conseils de conservation -->
-[Instructions de conservation si applicable]
+Cuire 10 min a 180°C.

@@ -1,7 +1,7 @@
 ---
 # MÉTADONNÉES OBLIGATOIRES DE LA RECETTE
 
-tile: [titre]
+tile: Pate carbonara
 # Ces tags déterminent comment la recette apparaîtra dans le système de filtrage liste des tags existant dans mkdocs.yml au niveau de extra=> tags=> la colone de gauche en bleu.
 tags:
   # ORIGINE GÉOGRAPHIQUE (choisir une seule origine)
@@ -12,7 +12,6 @@ tags:
   
   # RESTRICTIONS ALIMENTAIRES 
   - Végétarien      # ou Végétalien, Sans gluten, Sans lactose, Sans fruits à coque
-  - Sans porc       # si applicable
   - Sans alcool     # si applicable
   
   # NIVEAU DE DIFFICULTÉ (choisir un seul niveau)
@@ -25,7 +24,7 @@ tags:
   - Four            # si un four est nécessaire / ou Sans four
 ---
 
-# [Nom de la Recette]
+# Sauce Carbonara
 <!-- 
 CONSEILS POUR LE TITRE :
 - Utilisez un nom descriptif et appétissant
@@ -35,18 +34,18 @@ CONSEILS POUR LE TITRE :
 
 
 
-![titre de la photo](photo)
+!Pate Carbonara (https://www.informacibo.it/wp-content/uploads/2018/04/carbonara.jpg)
 
 ***
-*Source : [site](lien)* <br>
-*Temps de préparation : xx minutes* <br>
-*Temps de cuisson : xx minutes*<br>
-*Temps de repos : xx minutes*<br>
+*Source : [Journal des Femmes](https://cuisine.journaldesfemmes.fr/recette/321203-pates-carbonara-la-meilleure-recette)* <br>
+*Temps de préparation : 5 minutes* <br>
+*Temps de cuisson : 10 minutes*<br>
 
-*[event]*
+
+*Resto italien*
 ***
 ## Ingrédients
-### Pour [X] personnes :
+### Pour 4 personnes :
 <!-- 
 SYSTÈME D'AJUSTEMENT DES QUANTITÉS :
 - Remplacez [X] par le nombre de personnes de base
@@ -55,7 +54,7 @@ SYSTÈME D'AJUSTEMENT DES QUANTITÉS :
 
 <div class="people-adjustment">
   <button class="adjust-button minus">-</button>
-  <input type="number" id="num-people" value="1" min="1" data-default-quantity="[X]"> <!-- [X] doit correspondre à la quantité de base -->
+  <input type="number" id="num-people" value="1" min="1" data-default-quantity="4"> <!-- [X] doit correspondre à la quantité de base -->
   <button class="adjust-button plus">+</button>
 </div>
 
@@ -69,61 +68,35 @@ FORMATAGE DES INGRÉDIENTS :
 EXEMPLES DE FORMATAGE :
 - Quantité avec unité : <span class="ingredient" data-base-quantity="150" data-unit="g"></span> de farine
 - Quantité sans unité : <span class="ingredient" data-base-quantity="2" data-unit=""></span> œufs
-- Fraction : <span class="ingredient" data-base-quantity="0.5" data-unit="cc"></span>
+- Fraction : <span class="ingredient" data-base-quantity="0.5" data-unit="">cc</span> 
 -->
 
-- <span class="ingredient" data-base-quantity="[quantité]" data-unit="[unité]"></span> [nom de l'ingrédient]
-- <span class="ingredient" data-base-quantity="[quantité]" data-unit="[unité]"></span> [nom de l'ingrédient]
+- <span class="ingredient" data-base-quantity="200" data-unit="g"></span> Panchetta coupée ou lardons
+- <span class="ingredient" data-base-quantity="2" data-unit=""></span> oeuf entier
+- <span class="ingredient" data-base-quantity="4" data-unit=""></span> jaune d'oeuf
+- <span class="ingredient" data-base-quantity="100" data-unit="g"></span> parmesan ou pecorino rapé
+- <span class="ingredient" data-base-quantity="500" data-unit="g"></span> pates
+- <span class="ingredient" data-base-quantity="0.5" data-unit="cc"></span> poivre 
+
 <!-- Répéter pour chaque ingrédient -->
 </div>
 
 ## Instructions
 
 ### Etape 1
-<!-- 
-TECHNIQUES D'ENRICHISSEMENT :
-1. CONSEILS ET ASTUCES :
-Utilisez les blocs d'information pour ajouter des conseils
 
-??? : pour avoir un menu déroulant rétracté par default
-!!! : Pour avoir une section qui n'est pas rétractable
-
-Pour plus de précision dans les module et comment les utiliser lisez la documentation de MkDocs Material.
--->
-
-??? info inline end "A savoir"
-    [Conseil ou astuce importante pour cette étape]
-
-[Description détaillée de la première étape]
+Faire cuire les lardons ou pancetta a feu vif jusqu'a qu'ils soient dorés.
 
 ### Etape 2
 
-??? tip inline end "Conseils"
-    - **Point important** : [explication]
-    - [Autre conseil utile]
-
-[Description de la deuxième étape]
+Cuire les pates et garder 10cl d'eau de cuisson.
 
 ### Etape 3
-
-??? inline end info "A noter"
-    [Information importante à retenir]
-
-[Description de la troisième étape avec éventuellement une image]
-
-<!-- 
-AJOUT D'IMAGES :
-Pour ajouter une image explicative dans un conseil :
-<p align="center">
-  <img src="[URL_de_l_image]" alt="Description" width="300">
-</p>
-
-Ajouter une image dans une étape :
-![Description de l'image](URL_de_l_image)
--->
+Dans un saladier, mélanger les oeufs, les jaunes et le fromage. Poivrer généreusement.
 
 ### Etape 4
-[Continuer avec toutes les étapes nécessaires...]
+Ajouter les pates, l'eau de cuisson, les lardons dans le saladier. Mélanger vivement.
+
 
 <!-- 
 TYPES DE BLOCS D'INFORMATION DISPONIBLES :
@@ -139,5 +112,5 @@ POSITIONNEMENT :
 -->
 
 ## Conservation
-<!-- Section optionnelle pour les conseils de conservation -->
-[Instructions de conservation si applicable]
+
+Les plats de pâtes en sauce peuvent être congelés.
