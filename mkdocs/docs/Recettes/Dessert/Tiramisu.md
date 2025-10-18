@@ -5,7 +5,7 @@ tile: Tiramisu
 # Ces tags déterminent comment la recette apparaîtra dans le système de filtrage liste des tags existant dans mkdocs.yml au niveau de extra=> tags=> la colone de gauche en bleu.
 tags:
   # ORIGINE GÉOGRAPHIQUE (choisir une seule origine)
-  - Italien          # ou Italie, Espagne, Mexique, États-Unis, Brésil, Argentine, etc.
+  - Italie          # ou Italie, Espagne, Mexique, États-Unis, Brésil, Argentine, etc.
   
   # TYPE DE PLAT (choisir un seul type)
   - Dessert          # ou Plat, Dessert
