@@ -19,7 +19,7 @@ tags:
 
 ## Ingrédients
 
-Multiplicateur de recette : 
+### Pour 35 mini pain burger :
 <div class="people-adjustment">
   <button class="adjust-button minus">-</button>
   <input type="number" id="num-people" value="1" min="1" data-default-quantity="35">

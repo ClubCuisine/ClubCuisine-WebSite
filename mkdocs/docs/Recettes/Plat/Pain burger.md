@@ -157,7 +157,8 @@ Pour façonner les petits pains, placez un morceau de pâte au centre de votre p
 ??? tip inline end "Conseils"
     - faites de votre mieux
 
- ### Etape 15 (Pate)
+
+### Etape 15 (Pate)
 
  Déposez les pâtes façonnées sur une plaque recouvert de papier cuisson en veillant à laisser un espace de 6 cm entre chaque pain.
 

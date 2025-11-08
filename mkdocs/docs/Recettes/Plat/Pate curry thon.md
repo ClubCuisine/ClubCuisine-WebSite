@@ -1,7 +1,7 @@
 ---
 # MÉTADONNÉES OBLIGATOIRES DE LA RECETTE
 
-tile: Pate carbonara
+tile: [titre]
 # Ces tags déterminent comment la recette apparaîtra dans le système de filtrage liste des tags existant dans mkdocs.yml au niveau de extra=> tags=> la colone de gauche en bleu.
 tags:
   # ORIGINE GÉOGRAPHIQUE (choisir une seule origine)
@@ -12,6 +12,7 @@ tags:
   
   # RESTRICTIONS ALIMENTAIRES 
   - Végétarien      # ou Végétalien, Sans gluten, Sans lactose, Sans fruits à coque
+  - Sans porc       # si applicable
   - Sans alcool     # si applicable
   
   # NIVEAU DE DIFFICULTÉ (choisir un seul niveau)
@@ -21,10 +22,10 @@ tags:
   - Rapide          # moins de 30 minutes / ou Long (plus de 30 minutes)
   
   # ÉQUIPEMENT NÉCESSAIRE (ajouter selon les besoins)
-  - Four            # si un four est nécessaire / ou Sans four
+              # si un four est nécessaire / ou Sans four
 ---
 
-# Sauce Carbonara
+# [Pate au curry et au thon
 <!-- 
 CONSEILS POUR LE TITRE :
 - Utilisez un nom descriptif et appétissant
@@ -34,18 +35,17 @@ CONSEILS POUR LE TITRE :
 
 
 
-!Pate Carbonara (https://www.informacibo.it/wp-content/uploads/2018/04/carbonara.jpg)
 
 ***
-*Source : [Journal des Femmes](https://cuisine.journaldesfemmes.fr/recette/321203-pates-carbonara-la-meilleure-recette)* <br>
+*Source : Célia GRÉMILLON* <br>
 *Temps de préparation : 5 minutes* <br>
 *Temps de cuisson : 10 minutes*<br>
 
 
-*Resto italien*
+*Cours*
 ***
 ## Ingrédients
-### Pour 4 personnes :
+### Pour 1 personnes :
 <!-- 
 SYSTÈME D'AJUSTEMENT DES QUANTITÉS :
 - Remplacez [X] par le nombre de personnes de base
@@ -54,7 +54,7 @@ SYSTÈME D'AJUSTEMENT DES QUANTITÉS :
 
 <div class="people-adjustment">
   <button class="adjust-button minus">-</button>
-  <input type="number" id="num-people" value="1" min="1" data-default-quantity="4"> <!-- [X] doit correspondre à la quantité de base -->
+  <input type="number" id="num-people" value="1" min="1" data-default-quantity="1"> <!-- [X] doit correspondre à la quantité de base -->
   <button class="adjust-button plus">+</button>
 </div>
 
@@ -68,16 +68,15 @@ FORMATAGE DES INGRÉDIENTS :
 EXEMPLES DE FORMATAGE :
 - Quantité avec unité : <span class="ingredient" data-base-quantity="150" data-unit="g"></span> de farine
 - Quantité sans unité : <span class="ingredient" data-base-quantity="2" data-unit=""></span> œufs
-- Fraction : <span class="ingredient" data-base-quantity="0.5" data-unit="">cc</span> 
+- Fraction : <span class="ingredient" data-base-quantity="0.5" data-unit="cc"></span>
 -->
 
-- <span class="ingredient" data-base-quantity="200" data-unit="g"></span> Panchetta coupée ou lardons
-- <span class="ingredient" data-base-quantity="2" data-unit=""></span> oeuf entier
-- <span class="ingredient" data-base-quantity="4" data-unit=""></span> jaune d'oeuf
-- <span class="ingredient" data-base-quantity="100" data-unit="g"></span> parmesan ou pecorino rapé
-- <span class="ingredient" data-base-quantity="500" data-unit="g"></span> pates
-- <span class="ingredient" data-base-quantity="0.5" data-unit="cc"></span> poivre 
-
+- <span class="ingredient" data-base-quantity="100" data-unit="g"></span> Pate
+- <span class="ingredient" data-base-quantity="3" data-unit="cs"></span> Crème fraiche
+- <span class="ingredient" data-base-quantity="1" data-unit="cs"></span> Maizena
+- <span class="ingredient" data-base-quantity="1/2" data-unit="cs"></span> curry
+- <span class="ingredient" data-base-quantity="100" data-unit="g"></span> Pate
+- <span class="ingredient" data-base-quantity="1/2" data-unit="boite(~140g)"></span> Thon
 <!-- Répéter pour chaque ingrédient -->
 </div>
 
@@ -85,32 +84,17 @@ EXEMPLES DE FORMATAGE :
 
 ### Etape 1
 
-Faire cuire les lardons ou pancetta a feu vif jusqu'a qu'ils soient dorés.
+Cuire les pâtes.
 
 ### Etape 2
 
-Cuire les pates et garder 10cl d'eau de cuisson.
+Pendant ce temps,  dans un bol melanger creme curry sel et maizena.
 
 ### Etape 3
-Dans un saladier, mélanger les oeufs, les jaunes et le fromage. Poivrer généreusement.
+
+Chauffer une poele, y mettre les pâtes et la sauce puis bien remuer jusqu'à que ce soit épais.
 
 ### Etape 4
-Ajouter les pates, l'eau de cuisson, les lardons dans le saladier. Mélanger vivement.
 
+Ajouter le thon et voila.
 
-<!-- 
-TYPES DE BLOCS D'INFORMATION DISPONIBLES :
-- info : informations générales (icône i)
-- tip : conseils et astuces (icône ampoule)
-- warning : avertissements (icône triangle)
-- note : notes importantes (icône crayon)
-
-POSITIONNEMENT :
-- inline end : à droite du texte
-- inline : dans le texte
-- (rien) : bloc complet
--->
-
-## Conservation
-
-Les plats de pâtes en sauce peuvent être congelés.

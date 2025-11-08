@@ -104,11 +104,11 @@ Dans un saladier, mélanger au fouet les oeufs et les jaunes d'oeufs avec le suc
 
  Ajouter ensuite le jus d'un citron et demi ainsi que le zeste d'un citron et bien mélanger.
 
- ### Etape 6
+### Etape 6
 
  A feu doux, mélanger sans cesse jusqu'à ébullition et épaississement du crémeux.
 
- ### Etape 7
+### Etape 7
 
  Laisser refroidir le crémeux au réfrigérateur durant 1 heure.
 
