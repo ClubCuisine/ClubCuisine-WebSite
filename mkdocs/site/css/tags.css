@@ -1,0 +1,132 @@
+.md-tag--france {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--italie {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--espagne {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--mexique {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--etats_unis {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--bresil {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--argentine {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--perou {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--chine {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--japon {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--coree_du_sud {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--thailande {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--vietnam {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--inde {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--maroc {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--turquie {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--grece {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--liban {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--egypte {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--afrique_du_sud {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--russie {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--allemagne {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--suisse {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--belgique {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--portugal {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--australie {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--nouvelle_zelande {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/flag);
+}
+.md-tag--entree {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,fontawesome/solid/utensils);
+}
+.md-tag--plat {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/food);
+}
+.md-tag--dessert {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/ice-cream);
+}
+.md-tag--vegetarien {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/leaf);
+}
+.md-tag--vegetalien {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/leaf);
+}
+.md-tag--sans_gluten {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/bread-slice);
+}
+.md-tag--sans_lactose {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/cow);
+}
+.md-tag--sans_fruits_a_coque {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/leaf);
+}
+.md-tag--facile {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/emoticon-happy);
+}
+.md-tag--moyen {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/alert);
+}
+.md-tag--difficile {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/emoticon-sad);
+}
+.md-tag--rapide {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/clock);
+}
+.md-tag--long {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/clock);
+}
+.md-tag--four {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/toaster-oven);
+}
+.md-tag--sans_four {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/toaster-oven);
+}
+.md-tag--sans_porc {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/pig-variant);
+}
+.md-tag--sans_alcool {
+    --md-tag-icon: url(data:image/svg+xml;charset=utf-8,material/glass-cocktail-off);
+}

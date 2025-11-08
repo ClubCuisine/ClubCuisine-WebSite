@@ -1,0 +1,135 @@
+/* styles.css */
+
+.people-adjustment {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ingredient-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ingredient {
+    margin-right: 10px;
+}
+
+.adjust-button {
+    background-color: #4051b5;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adjust-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#num-people {
+    min-width: 50px;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: width 0.2s; 
+    width: auto; 
+}
+
+/************************************************************/
+
+.result-list-item {
+    opacity: 0; /* Initialement invisible */
+    transition: opacity 0.5s ease; /* Transition pour l'animation */
+}
+
+.result-list-item.show {
+    opacity: 1; /* Rendre visible */
+}
+
+.md-tag {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    margin: 0.2em;
+    background-color: #e0e0e0;
+    border-radius: 0.2em;
+    cursor: pointer;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.md-tag.selected {
+    background-color: #63de17; /* Couleur de sélection correspondant au thème */
+    color: white;
+}
+
+.md-tag-icon.selected:before {
+    background-color: white;
+}
+
+.md-tag i.material-icons {
+    vertical-align: middle;
+    margin-right: 0.2em;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+#tag-search {
+    width: 100%;
+    padding: 0.5em 2.5em 0.5em 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.2em;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.search-icon {
+    position: absolute;
+    right: 0.5em;
+    width: 1.5em;
+    height: 1.5em;
+    fill: #ccc;
+    pointer-events: none;
+}
+
+.clear-icon {
+    position: absolute;
+    right: 2.5em; /* Ajuster la position pour être avant la loupe */
+    cursor: pointer;
+    width: 1.5em;
+    height: 1.5em;
+    display: none; /* Masquer par défaut */
+}
+
+.clear-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+#tag-search:not(:placeholder-shown) + .clear-icon {
+    display: block; /* Afficher lorsque le champ n'est pas vide */
+}
+
+/************************************************************/
+
+.download-button {
+  display: flex;
+  justify-content: flex-end;
+}
